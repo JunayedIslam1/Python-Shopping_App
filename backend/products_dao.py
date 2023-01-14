@@ -47,7 +47,7 @@ if __name__ == '__main__':
     connection = get_sql_connection()
     # print(get_all_products(connection))
     print(insert_new_products(connection, {
-        'products_name': 'fish',
-        'uom_id': '1',
-        'price_per_unit': 24
+        'products_name': 'Moistured_Oil',
+        'uom_id': '2',
+        'price_per_unit': 70
     }))
